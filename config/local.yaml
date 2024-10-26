@@ -1,0 +1,19 @@
+env: "local"
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "dm-trade"
+  username: "postgres"
+  password: "89872010riot!"
+
+grpc:
+  port: 4404
+  timeout: 5s
+
+auth:
+  jwt:
+    access_token_ttl: "720h"
+    refresh_token_ttl: "1900h"
+    secret: "giwfFga9h7bShimoLxZ8pVGlKGyIzgDo7saYg5Ljkt8="
+  password_salt: "yoursecretsalt"
