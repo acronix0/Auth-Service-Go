@@ -69,7 +69,8 @@ func (s *AuthService) SignIn(ctx context.Context, input UserSignInInput) (Tokens
 	if err != nil {
 		return Tokens{}, err
 	} */
-	return s.generateTokens(ctx, /* user.ID */123, input.DeviceInfo)
+	 resp,err := s.generateTokens(ctx, /* user.ID */123, input.DeviceInfo)
+	return resp,err
 }
 
 func (s *AuthService) RefreshTokens(ctx context.Context, refreshToken string, deviceInfo string) (Tokens, error) {
@@ -85,6 +86,7 @@ func (s *AuthService) RefreshTokens(ctx context.Context, refreshToken string, de
 	return s.generateTokens(ctx, userID, deviceInfo)
 }
 func (s *AuthService)generateTokens(ctx context.Context, userID int, deviceInfo string) (Tokens, error){
+
 	accessToken, err := s.tokenManager.NewJWT(userID, time.Hour*1)
 	if err != nil {
 		return Tokens{}, err

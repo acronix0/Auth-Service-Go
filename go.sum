@@ -1,7 +1,7 @@
 github.com/BurntSushi/toml v1.2.1 h1:9F2/+DoOYIOksmaJFPw1tGFy1eDnIJXg+UHjuD8lTak=
 github.com/BurntSushi/toml v1.2.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
-github.com/acronix0/REST-API-Go-protos v0.0.4 h1:8qezwUo0C990QcZPYmg//Bqm8NIlInlwalh2ZIZkds4=
-github.com/acronix0/REST-API-Go-protos v0.0.4/go.mod h1:wNpAb5+KzLAYGha0Qc0lONh0vNgg0li/+tt/3/2038E=
+github.com/acronix0/REST-API-Go-protos v0.0.6 h1:bzqfd04nnZICy0ka1bgSSahZMscfUQHzgpdz5rWKOHM=
+github.com/acronix0/REST-API-Go-protos v0.0.6/go.mod h1:wNpAb5+KzLAYGha0Qc0lONh0vNgg0li/+tt/3/2038E=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
